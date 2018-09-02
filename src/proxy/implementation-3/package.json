@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "express": "^4.15.5",
+    "express-jade": "0.0.3",
+    "memory-cache": "^0.2.0",
+    "random-int": "^1.0.0",
+    "random-number": "0.0.9",
+    "raw-body": "^2.3.2",
+    "request": "^2.85.0"
+  }
+}

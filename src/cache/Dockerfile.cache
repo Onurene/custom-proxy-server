@@ -1,0 +1,10 @@
+FROM node:carbon
+
+# Create app directory
+WORKDIR /ccbd_project
+
+# Copy source code
+COPY . .
+
+# Instal dependencies
+RUN npm install

@@ -1,0 +1,7 @@
+#To Build (Run the following build commands inside appropriate directories under "src" directory)
+
+docker build -f Dockerfile.backend -t vkdhanaraj/ccbd_backend:latest .
+docker build -f Dockerfile.cache -t vkdhanaraj/ccbd_cache:latest .
+docker build -f Dockerfile.loadbalancer -t vkdhanaraj/ccbd_loadbalancer:latest .
+docker build -f Dockerfile.proxy -t vkdhanaraj/ccbd_proxy:latest .
+
